@@ -1,5 +1,4 @@
 // 1
-
 function displayNameAndAge(name, age) {
   console.log("Olá, meu nome é", name, "e eu tenho", age, "anos de idade");
 }
@@ -15,9 +14,9 @@ let bestLanguage = "Rust";
 display(navegador, ideOfChoice, bestLanguage);
 
 // 3
-let vimIsTheBestIDE = true;
-let VSCodeIsTheBestIDE = false;
-display(vimIsTheBestIDE, VSCodeIsTheBestIDE);
+let isVimTheBestIDE = true;
+let isVSCodeTheBestIDE = false;
+display(isVimTheBestIDE, isVSCodeTheBestIDE);
 
 // 4
 let friends = undefined;
