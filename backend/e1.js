@@ -36,7 +36,7 @@ function getAvg(n1, n2, n3) {
 }
 
 //Loga tudo no console
-console.log(fib(10));
-console.log(sum(10, 10, 20, 20));
-console.log(getAgeByYear(2007));
-console.log(getAvg(10, 10, 8));
+console.log(fib(1000));
+// console.log(sum(10, 10, 20, 20));
+// console.log(getAgeByYear(2007));
+// console.log(getAvg(10, 10, 8));
