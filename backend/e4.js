@@ -1,8 +1,10 @@
 const prompt = require("prompt-sync")();
+
 /*
 Exercício 1
 Crie uma função que exibe uma mensagem de boas-vindas ao usuário quando a página for carregada. Utilize essa função para personalizar a experiência de cada usuário.
 */
+
 let nome = prompt("Seu nome? ");
 function exibe(n) {
   console.log(n);
@@ -13,6 +15,7 @@ exibe(nome);
 Exercício 2
 Desenvolva uma função que receba um número como parâmetro e verifique se ele é par ou ímpar. Retorne true se for par e false se for ímpar.
 */
+
 function isEven(num) {
   return num % 2 == 0;
 }
@@ -36,6 +39,7 @@ console.log(avgOfArray([10, 9, 8, 9]));
 Exercício 4
 Crie uma função que receba uma string como parâmetro e retorne a mesma string com todas as letras em caixa alta. Utilize essa função para converter diferentes strings.
 */
+
 function upperCase(str) {
   return str.toUpperCase();
 }
