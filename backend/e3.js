@@ -19,7 +19,7 @@ let isVSCodeTheBestIDE = false;
 display(isVimTheBestIDE, isVSCodeTheBestIDE);
 
 // 4
-let friends = undefined;
+let friends;
 let windows = undefined;
 display(friends, windows);
 
